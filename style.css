@@ -1,9 +1,16 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
 }
 
 
+p{
+    color: dimgray;
 
+
+
+}
 h1{
     font-size: 25px;
 }
@@ -22,7 +29,34 @@ h1{
 }
 .top-banner{
     background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 section{
     height: 200px;
+    padding-bottom: 200px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.single-experiance{
+    box-shadow: 10px 10px gray;
+    height: 20%;
+}
+.experiance-area{
+    background-image: url("images/exp-bg.png");
+
+}
+footer{
+    font-size: 5px;
+    text-align: center;
 }
